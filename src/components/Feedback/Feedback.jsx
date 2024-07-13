@@ -1,13 +1,13 @@
 // import React from 'react'
 import s from './Feedback.module.css'
 
-const Feedback = () => {
+const Feedback = ({ feedback, }) => {
   return (
     <div>
       <ul className={s.feedback}>
-              <li>Good: { }</li>
-              <li>Neutral: { }</li>
-              <li>Bad: { }</li>
+              <li>Good: {feedback.good}</li>
+              <li>Neutral: {feedback.neutral}</li>
+              <li>Bad: {feedback.bad}</li>
               <li>Total: { }</li>
               <li>Positive: { }</li>
       </ul>
