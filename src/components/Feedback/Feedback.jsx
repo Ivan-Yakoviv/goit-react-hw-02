@@ -1,5 +1,4 @@
-// import React from 'react'
-import s from './Feedback.module.css'
+import s from './Feedback.module.css';
 
 const Feedback = ({ feedback, totalFeedback, dealOfPositive}) => {
   return (

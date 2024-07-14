@@ -40,7 +40,7 @@ const App = () => {
 
   const dealOfPositive = totalFeedback ? Math.round(
     (feedback.good / totalFeedback) * 100
-  ) :0;
+  ) : 0;
 
   return (
     <>
@@ -60,7 +60,7 @@ const App = () => {
         <Notification />
       )}
     </>
-  )
-}
+  );
+};
 
 export default App
